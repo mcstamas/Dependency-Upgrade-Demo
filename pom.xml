@@ -8,7 +8,7 @@
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
-    <version>3.4.0</version>
+    <version>3.5.8</version>
   </parent>
   <name>petclinic</name>
 
@@ -23,9 +23,9 @@
     <webjars-bootstrap.version>5.3.3</webjars-bootstrap.version>
     <webjars-font-awesome.version>4.7.0</webjars-font-awesome.version>
 
-    <jacoco.version>0.8.12</jacoco.version>
+    <jacoco.version>0.8.14</jacoco.version>
     <nohttp-checkstyle.version>0.0.11</nohttp-checkstyle.version>
-    <spring-format.version>0.0.43</spring-format.version>
+    <spring-format.version>0.0.47</spring-format.version>
 
   </properties>
 
@@ -142,7 +142,7 @@
           <dependency>
             <groupId>com.puppycrawl.tools</groupId>
             <artifactId>checkstyle</artifactId>
-            <version>10.18.2</version>
+            <version>10.21.4</version>
           </dependency>
           <dependency>
             <groupId>io.spring.nohttp</groupId>
